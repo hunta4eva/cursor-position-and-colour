@@ -7,5 +7,5 @@ while True:
     string_position += ', ' + str(pixelcolor[1]).rjust(3)
     string_position += ', ' + str(pixelcolor[2]).rjust(3) + ')'
     print(string_position, end='')
-    print('\b' * len(positionStr), end='', flush=True)
+    print('\b' * len(string_position), end='', flush=True)
 
